@@ -21,11 +21,11 @@ public class CosmeticsManager : ManagerBase<CosmeticsManager>
         ConfigName = "TheOtherHats",
         HatDirName = "hats",
         HatFileName = "CustomHats.json",
-        RootUrl = "https://raw.githubusercontent.com/TheOtherRolesAU/TheOtherHats/master".GithubUrl(),
+        RootUrl = "https://raw.githubusercontent.com/mxyx-club/TheOtherHats/master".GithubUrl(),
         hasCosmetics = CustomCosmeticsFlags.Hat
     };
 
-    internal static string RepositoryUrl => "https://raw.githubusercontent.com/TheOtherRolesAU/TheOtherHats/master".GithubUrl();
+    internal static string RepositoryUrl => "https://raw.githubusercontent.com/mxyx-club/TheOtherHats/master".GithubUrl();
 
     public static void Load()
     {
